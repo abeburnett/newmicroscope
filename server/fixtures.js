@@ -16,4 +16,10 @@ if (Posts.find().count() === 0) {
 		author: 'Bae Fox',
 		url: 'http://baefox.wordpress.com'
 	});
+
+	Posts.insert({
+		title: 'The Unchosen',
+		author: 'Bae Fox',
+		url: 'http://baefox.wordpress.com'
+	});
 }
